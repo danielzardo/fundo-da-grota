@@ -6,6 +6,9 @@ myHeading.textContent = 'Hello world!';
 Exercise 2
 document.querySelector('html').onclick = function() {
     alert('Ouch! Stop poking me!');
+
+comment to commit
+
 }*/
 
 
