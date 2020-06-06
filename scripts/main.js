@@ -6,6 +6,9 @@ myHeading.textContent = 'Hello world!';
 Exercise 2
 document.querySelector('html').onclick = function() {
     alert('Ouch! Stop poking me!');
+
+comment to commit
+
 }*/
 
 
@@ -33,7 +36,7 @@ function setUserName(){
         setUserName();
     } else {
         localStorage.setItem('name', myName);
-        myHeading.textContent = 'Mozzilla is cool, ' + myName;
+        myHeading.textContent = 'No fundo da grota com: ' + myName;
     }
     
 }
@@ -42,5 +45,5 @@ if(!localStorage.getItem('name')){
     setUserName();
 } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
+    myHeading.textContent = 'No fundo da grota com: ' + storedName;
 }
