@@ -1,16 +1,16 @@
 html{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    background-color: lightskyblue;
+    background-color: darkslategrey;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     margin: 0;
     padding: 20px 0;
     color: black;
-    text-shadow: 3px 3px 1px skyblue;
+    text-shadow: 0.5px 0.5px 10px gray;
 
 }
 
@@ -23,7 +23,7 @@ p, li {
 body{
     width: 600px;
     margin: 0 auto;
-    background-color: lightsteelblue;
+    background-color: seashell;
     padding: 0 20px 20px 20px;
     border: 2px solid black;
 }

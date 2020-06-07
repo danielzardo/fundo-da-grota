@@ -36,7 +36,7 @@ function setUserName(){
         setUserName();
     } else {
         localStorage.setItem('name', myName);
-        myHeading.textContent = 'No fundo da grota com: ' + myName;
+        myHeading.textContent = 'This is my coding jouney. Welcome: ' + myName;
     }
     
 }
@@ -45,5 +45,5 @@ if(!localStorage.getItem('name')){
     setUserName();
 } else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'No fundo da grota com: ' + storedName;
+    myHeading.textContent = 'This is my coding jouney. Welcome: ' + storedName;
 }
